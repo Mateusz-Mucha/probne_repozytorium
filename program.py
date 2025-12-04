@@ -1,7 +1,7 @@
-
+import math
 flaga=0
 x =int(input())
-for i in range(2, x):
+for i in range(2, int(math.sqrt(x))):
 	if x%i==0:
 		print("nie_pietrwsza")
 		flaga=1;
